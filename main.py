@@ -9,7 +9,7 @@ import warnings
 warnings.filterwarnings('ignore')
 
 # Reading the data
-df = pd.read_csv('Shark Tank India Dataset.csv')
+df = pd.read_csv('Shark_Tank_India_Dataset.csv')
 
 # Creating Industry Column
 df['Industry'] = df['idea'].map(pre.industry_dict)
